@@ -24,5 +24,5 @@ long long modPow(long long a, string x, long long p) {
         if (x1[i] == '1') y = (y * a) % p;
         a = (a * a) % p;
     }
-    return y;1
+    return y;
 }
