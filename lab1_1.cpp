@@ -10,12 +10,12 @@ string binary(ll number) {
     return x1;
 }
 
-ll modPow(ll a, string x, ll p) {
-    int t = x.size();
-    cout << x << endl;
+ll modPow(ll a, ll x, ll p) {
+    string x1 = binary(x);
+    int t = x1.size();
     ll y = 1;
     for (int i = 0; i < t; i++) {
-        if (x[i] == '1') y = (y * a) % p;
+        if (x1[i] == '1') y = (y * a) % p;
         a = (a * a) % p;
     }
     return y;

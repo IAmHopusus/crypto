@@ -19,7 +19,7 @@ ll gcd(ll x, ll y) {
     return x;
 }
 
-nod NOD(ll x, ll y) {
+nod euclid(ll x, ll y) {
     ll i = 0;
     nod U = data(x, 1, 0);
     nod V = data(y, 0, 1);
