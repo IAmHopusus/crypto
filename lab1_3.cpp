@@ -45,7 +45,7 @@ ll DifHell() {
     ll Yb = modPow(g, Xb, P);
     ll Zab = modPow(Yb, Xa, P);
     ll Zba = modPow(Ya, Xb, P);
-    cout << "|Xa = " << Xa << "\n|Xb = " << Xb << "\n|Ya = " << Ya << "\n|Yb = " << Yb << "\n|Zab = " << Zab
-         << "\n|Zba = " << Zba << endl;
+    cout << "Xa = " << Xa << "\nXb = " << Xb << "\nYa = " << Ya << "\nYb = " << Yb << "\nZab = " << Zab
+         << "\nZba = " << Zba << endl;
     return Zab;
 }
