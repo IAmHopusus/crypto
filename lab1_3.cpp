@@ -38,7 +38,7 @@ ll DifHell() {
         P = 2 * Q + 1;
     } while (!(isPrime(Q, log2(Q)) && isPrime(P, log2(P))));
     g = g_mod_P(P, Q);
-    cout << "|Q = " << Q << "\n|P = " << P << "\n|g = " << g << endl;
+    cout << "Q = " << Q << "\nP = " << P << "\ng = " << g << endl;
     ll Xa = 1 + rand() % (P - 1);
     ll Xb = 1 + rand() % (P - 1);
     ll Ya = modPow(g, Xa, P);
