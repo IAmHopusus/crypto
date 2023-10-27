@@ -38,9 +38,9 @@ ll gcd(ll x, ll y) {
 }
 
 void shamirCore(ll p) {
-    // Создадим m в пределах p-1
+    // Создадим наше сообщение m в пределах p-1
     ll m = rand() % (p - 1);
-    cout << "\nm: " << m << " p: " << p << endl;
+    cout << "m: " << m << " p: " << p << endl;
     // Генерация для A
     keys A = genKey(p);
     // Генерация для B
